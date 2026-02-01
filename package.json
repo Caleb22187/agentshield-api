@@ -1,0 +1,16 @@
+{
+  "name": "agentshield-api",
+  "version": "1.0.0",
+  "description": "AgentShield Pro API — Real-time prompt injection detection for AI agents",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1"
+  }
+}
