@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: agentshield-api
+    runtime: node
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: PORT
+        value: 3847
+    plan: free
