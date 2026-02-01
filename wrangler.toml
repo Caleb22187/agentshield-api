@@ -1,0 +1,6 @@
+name = "agentshield-api"
+main = "src/index.js"
+compatibility_date = "2024-12-01"
+
+[vars]
+RATE_LIMIT_PER_MIN = "30"

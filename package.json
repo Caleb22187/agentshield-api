@@ -1,24 +1,11 @@
 {
   "name": "agentshield-api",
   "version": "1.0.0",
-  "description": "AgentShield Pro API — Real-time prompt injection detection for AI agents",
-  "type": "module",
-  "main": "scanner.js",
-  "exports": {
-    ".": "./scanner.js",
-    "./server": "./server.js"
-  },
+  "private": true,
+  "description": "AgentShield Prompt Injection Scanner API - Cloudflare Worker",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node --watch server.js",
-    "test": "node test.js"
-  },
-  "keywords": [
-    "prompt-injection", "ai-security", "llm-security", "agent-security",
-    "jailbreak-detection", "agentshield", "prompt-guard"
-  ],
-  "dependencies": {
-    "express": "^4.18.2",
-    "cors": "^2.8.5"
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
   }
 }
